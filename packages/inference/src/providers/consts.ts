@@ -17,7 +17,9 @@ export const HARDCODED_MODEL_ID_MAPPING: Record<InferenceProvider, Record<ModelI
 	 * "Qwen/Qwen2.5-Coder-32B-Instruct": "Qwen2.5-Coder-32B-Instruct",
 	 */
 	"black-forest-labs": {},
-	cerebras: {},
+	cerebras: {
+		"meta-llama/llama-3.1-8b-instruct": "llama3.1-8b",
+	},
 	cohere: {},
 	"fal-ai": {},
 	"fireworks-ai": {},
